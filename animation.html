@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+  $("button").click(function(){
+    $("div").animate({height:300},"slow");
+    $("div").animate({width:300},"slow");
+    $("div").animate({height:100},"slow");
+    $("div").animate({width:100},"slow");
+  });
+});
+</script> 
+</head>
+ 
+<body>
+<button>Start Animation</button>
+<br /><br />
+<div style="background:cornflowerblue;height:100px;width:100px;position:relative">
+</div>
+</body>
+</html>
